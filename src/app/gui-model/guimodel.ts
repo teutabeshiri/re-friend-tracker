@@ -14,13 +14,13 @@ export class GuiModel {
                     "url": "/friend",
                     "formFieldList": [
                         {
-                            "id": "teut",
+                            "id": "nickname",
                             "type": "text",
-                            "name": "teut",
+                            "name": "Nickname",
                             "width": 2,
                             "required": true
 
-                        }
+                        },
                         {
                             "id": "familyName",
                             "type": "text",
