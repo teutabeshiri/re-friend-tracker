@@ -14,6 +14,14 @@ export class GuiModel {
                     "url": "/friend",
                     "formFieldList": [
                         {
+                            "id": "teut",
+                            "type": "text",
+                            "name": "teut",
+                            "width": 2,
+                            "required": true
+
+                        }
+                        {
                             "id": "familyName",
                             "type": "text",
                             "name": "FamilyName",
