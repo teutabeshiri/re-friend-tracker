@@ -9,7 +9,6 @@ export class GuiModel {
             "title": "ZHAW Friend Tracker (FS2024) beshiteu",
             "formList": [
                 {
-
                     "id": "GroupForm",
                     "title": "Group",
                     "url": "/group",
@@ -34,6 +33,7 @@ export class GuiModel {
                             "name": "Ok"
                         }
                     ]
+                },    
                     "id": "FriendForm",
                     "title": "Friend",
                     "url": "/friend",
