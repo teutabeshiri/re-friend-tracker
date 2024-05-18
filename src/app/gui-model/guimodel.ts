@@ -9,6 +9,31 @@ export class GuiModel {
             "title": "ZHAW Friend Tracker (FS2024) beshiteu",
             "formList": [
                 {
+
+                    "id": "GroupForm",
+                    "title": "Group",
+                    "url": "/group",
+                    "formFieldList": [
+                        {
+                            "id": "name",
+                            "type": "text",
+                            "name": "GroupName",
+                            "width": 2,
+                            "required": true
+                        },
+                        {
+                            "type": "deleteButton";
+                            "name": "Delete",
+                        },
+                        {
+                            "type": "cancelButton",
+                            "name": "Cancel",
+                        },
+                        {
+                            "type": "okButton",
+                            "name": "Ok"
+                        }
+                    ]
                     "id": "FriendForm",
                     "title": "Friend",
                     "url": "/friend",
