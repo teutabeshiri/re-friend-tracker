@@ -182,6 +182,16 @@ export class GuiModel {
                     "id": "groupspage",
                     "elementList:" [
                         {
+                            "type": "list",
+                            "icon": "fa-weixin",
+                            "color": "wisteria",
+                            "search": true,
+                            "url": "/group",
+                            "form": {
+                                "form": "GroupForm"
+                            }
+                        },
+                        {
                             "type": "backbutton",
                         },
                         {
