@@ -33,7 +33,8 @@ export class GuiModel {
                             "name": "Ok"
                         }
                     ]
-                },    
+                },
+                {
                     "id": "FriendForm",
                     "title": "Friend",
                     "url": "/friend",
@@ -179,6 +180,7 @@ export class GuiModel {
                             "page": "locationspage",
                         },
                     ]
+                    
                     "id": "groupspage",
                     "elementList:" [
                         {
