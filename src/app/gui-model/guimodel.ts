@@ -139,6 +139,7 @@ export class GuiModel {
                             "color": "blue",
                             "page": "friendspage",
                         },
+                        
                         {
                             "type": "button",
                             "name": "Location",
